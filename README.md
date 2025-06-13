@@ -8,7 +8,7 @@ This project performs an in-depth **network science analysis** and **topic model
 - **Source**: Reddit via PRAW (Python Reddit API Wrapper)
 - **Keywords used**: `climate`, `melting`, `ice`, `pollution`, `co2`, `oil`, `gasoline`, `electric`, `energy`
 - **Data collected**:
-    - ~6,300 comments and submission titles
+    - ~16,300 comments and submission titles
     - Columns: `submission_title`, `comment_body`, `author`, `created_utc`, `keyword`, `subreddit`
 
 ## 🧹 Preprocessing
@@ -47,11 +47,6 @@ This project performs an in-depth **network science analysis** and **topic model
 - Reduced to 10–20 topics for interpretability
 - Extracted top keywords per topic
 
-**Visualizations**:
-- Interactive UMAP plots with topic hover info
-- Topic heatmaps
-- Word clouds for each topic
-- Topic similarity matrices
 
 ## 🔁 Louvain vs. BERTopic Comparison
 
@@ -85,11 +80,6 @@ This project performs an in-depth **network science analysis** and **topic model
     - Louvain communities
     - Sentiment-filtered content
 
-## 🧠 Technologies Used
-
-- Python, Pandas, NLTK, NetworkX, BERTopic, SentenceTransformers
-- Matplotlib, Seaborn, Plotly, Scikit-learn, UMAP
-- Reddit API (PRAW)
 
 ## 📁 Project Structure
 
@@ -102,5 +92,4 @@ This project performs an in-depth **network science analysis** and **topic model
 
 Project inspired by network science coursework and Reddit NLP use-cases.
 
-Developed by: **Your Name**  
-Date: June 2025
+
